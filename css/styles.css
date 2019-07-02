@@ -1,0 +1,36 @@
+
+  body  {
+    background-color: #9370DB;
+  }
+h1{
+  color: #90EE90;
+  border-color: #C0C0C0;
+}
+label{color: #9370DB;}
+h2{color: #90EE90}
+.header{color: #90EE90;}
+.index{
+  color: #C0C0C0;
+}
+.AboutMe{
+color: #9370DB;
+}
+.contactme{
+  color: #9370DB
+}
+h3{
+color: #C0C0C0
+}
+th{color: #C0C0C0}
+p{color:#90EE90}
+ul{color: #C0C0C0}
+td{color: #C0C0C0}
+h4{color: #C0C0C0}
+hr{
+    background-color: #C0C0C0;
+    border-style: none;
+    width: 25%;
+    height: 2px;
+
+
+  }
