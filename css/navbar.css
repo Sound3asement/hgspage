@@ -1,0 +1,30 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #C0C0C0;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #9370DB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #9370DB;
+  color: #C0C0C0;
+}
+
+/* Add a color to the active/current link */
+.topnav .active {
+  background-color: #90EE90;
+  color: #C0C0C0;
+}
+
+/* Head Div
