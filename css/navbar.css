@@ -27,4 +27,32 @@
   color: #C0C0C0;
 }
 
-/* Head Div
+/* Game Div */
+/* Add a silver background color to the top navigation */
+.gameNav {
+  background: transparent;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* Style the links inside the navigation bar */
+.gameNav a {
+  float: left;
+  color: #90EE90;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.gameNav a:hover {
+  background-color:#C0C0C0;
+  color:#90EE90 ;
+}
+
+/* Add a color to the active/current link */
+.gameNav .active {
+  background-color: #90EE90;
+  color: #C0C0C0;
+}

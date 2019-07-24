@@ -16,9 +16,18 @@ h2 {
 }
 
 .header-info {
-  display: inline-block;
+  display:block;
+  height: 50px;
+  text-align: center;
 }
-
+.header h1{
+  text-align: center;
+}
+.headphoto{
+  margin-top: 20px;
+  margin-left: 45%;
+  margin-right: 20px;
+}
 .Ableton {
   height: 20%;
   display: inline-block;
@@ -65,7 +74,7 @@ label {
 
 .header {
   color: #90EE90;
-  text-align: left;
+  text-align: center;
 }
 
 .index {
@@ -73,7 +82,7 @@ label {
 }
 
 .AboutMe {
-  color: #9370DB;
+  color: #C0C0C0;
 }
 
 .about_me {
@@ -143,4 +152,86 @@ hr {
 }
 .govRoles{
   color: #C0C0C0
+}
+.diceImg {
+  height: 150px;
+  width: 300px;
+}
+.amButton{
+
+  background-color: silver;
+    border: none;
+    color: #9370DB;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+    float: right;
+}
+.amButton:hover{
+   background-color: #90EE90;
+}
+.amDiv{
+  text-align: center;
+
+}
+.bButton{
+  background-color: #9370DB;
+    border: none;
+    color: #90EE90;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+    float: left;
+}
+.bButton:hover{
+  background-color: silver;
+  color: #90EE90;
+}
+.contactMe{
+
+  text-align: center;
+  background-color: #90EE90;
+
+
+}
+.About {
+  height: 200px;
+}
+.About h1 {
+  text-align: left;
+}
+.About p{
+  text-align: left
+}
+.contactMe{
+  height: 150px;
+}
+.contactMe h2{
+  color: #9370DB;
+  text-align: right;
+}
+.contactMe p{
+  color: #9370DB;
+  text-align: right;
+}
+.gamesHome{
+  heght: 150px;
+}
+.gamesHome h2{
+  text-align: left;
+  margin-left: 20px;
+}
+.gamesHome p {
+  text-align: left;
+  margin-left: 20px
 }
