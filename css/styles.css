@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu&display=swap");
 h1 {
   color: #90EE90;
   border-color: #C0C0C0;
@@ -17,7 +18,7 @@ h2 {
 
 .header-info {
   display:block;
-  height: 50px;
+
   text-align: center;
 }
 .header h1{
@@ -101,8 +102,11 @@ label {
 
 .footer {
   text-align: center;
+  color: silver;
 }
-
+.foot-link{
+  color: silver;
+}
 .contactme {
   color: #9370DB
 }
@@ -170,7 +174,28 @@ hr {
     cursor: pointer;
     border-radius: 16px;
     align-items: center;
-    float: right;
+    float: left;
+}
+.messageBox{
+  align-items: center;
+  text-align: center;
+}
+.amButton2{
+  background-color: silver;
+    border: none;
+    color: #9370DB;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+    
+}
+.amButton2:hover{
+  background-color: #90EE90
 }
 .amButton:hover{
    background-color: #90EE90;
@@ -191,11 +216,29 @@ hr {
     cursor: pointer;
     border-radius: 16px;
     align-items: center;
-    float: left;
+    float: right;
 }
 .bButton:hover{
   background-color: silver;
   color: #90EE90;
+}
+.bButton2{
+  background-color: #9370DB;
+    border: none;
+    color: #90EE90;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+
+}
+.bButton2:hover{
+  background-color: silver;
+  color: #9370DB;
 }
 .contactMe{
 
@@ -206,12 +249,17 @@ hr {
 }
 .About {
   height: 200px;
+
 }
 .About h1 {
   text-align: left;
 }
 .About p{
   text-align: left
+}
+.resources{
+  align-items: center;
+  text-align: center;
 }
 .contactMe{
   height: 150px;
@@ -225,7 +273,8 @@ hr {
   text-align: right;
 }
 .gamesHome{
-  heght: 150px;
+  heght: 120px;
+  margin-bottom: 30px;
 }
 .gamesHome h2{
   text-align: left;
@@ -234,4 +283,12 @@ hr {
 .gamesHome p {
   text-align: left;
   margin-left: 20px
+}
+.flashImg{
+  height: 100px;
+  width: 100px;
+}
+.simon{
+  height: 100px;
+  width: 200px
 }

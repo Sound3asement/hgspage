@@ -1,0 +1,73 @@
+/** Import Google Fonts **/
+
+/** START-Simon Game CSS **/
+* {
+  color: #463f3a;
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+}
+h1 {
+  font-size: 60px;
+}
+body {
+  background-color: #faf3dd;
+}
+.simon-game {
+  margin: 100px auto;
+  margin-left: 30%;
+}
+#start,
+#stop {
+  font-size: xx-large;
+}
+#red {
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid rgba(236, 8, 40, 0.57);
+  border-left: 200px solid transparent;
+}
+#blue {
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid rgba(54, 54, 202, 0.66);
+  border-right: 200px solid transparent;
+  margin-top: -200px;
+  margin-left: 200px;
+}
+#green {
+  width: 0;
+  height: 0;
+  border-top: 200px solid rgba(76, 228, 76, 0.58);
+  border-left: 200px solid transparent;
+}
+#yellow {
+  width: 0;
+  height: 0;
+  border-top: 200px solid rgba(245, 245, 0, 0.48);
+  border-right: 200px solid transparent;
+  margin-left: 200px;
+  margin-top: -200px;
+}
+#red:hover,
+#blue:hover,
+#yellow:hover,
+#green:hover {
+  cursor: pointer;
+}
+#red.hover {
+  border-bottom: 200px solid red;
+}
+#blue.hover {
+  border-bottom: 200px solid blue;
+}
+#green.hover {
+  border-top: 200px solid green;
+}
+#yellow.hover {
+  border-top: 200px solid yellow;
+}
+.btn {
+  border: 1px solid #0e9bd2;
+  border-radius: 10px;
+}
+/** END-Simon Game CSS **/

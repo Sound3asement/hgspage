@@ -45,6 +45,20 @@ padding: auto;
 }
 
 .dice-roll {
+  background-color: #9370DB;
+    border: none;
+    color: #90EE90;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
     cursor: pointer;
-    text-transform: capitalize;
+    border-radius: 16px;
+    align-items: center;
+    float: left;
+}
+.dice-roll:hover{
+  background-color: silver;
+  color: #90EE90;
 }
