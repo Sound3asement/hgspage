@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simon</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/simon2.css">
+    <script src="js/simon2.js" charset="utf-8"></script>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="games.html">Games</a>
+  <a href="diceGame.html">Dice</a>
+  <a href="flash.html">Flash Cards</a>
+  <a href="simon2.html">Simon</a>
+</div>
+
+  </head>
+  <body>
+    <!--- Logic Credit:https://medium.com/front-end-hacking/create-simon-game-in-javascript-d53b474a7416#.yg9ndrmre -->
+    <!-- Content Area -->
+    <div class="container">
+      <!-- Game Button -->
+      <div class="simon-game">
+        <div id="red" class="start-game"></div>
+        <div id="blue" class="start-game"></div>
+        <div id="green" class="start-game"></div>
+        <div id="yellow" class="start-game">
+        </div>
+      </div>
+      <!-- Selection Container -->
+      <div class="text-center info">
+        <h1>Let's Play!</h1>
+        <h2 id="clickNumber">0</h2>
+        <button type="button" id="start" class="btn btn-default">Start</button>
+        <button type="button" id="stop" class="btn btn-default" onClick="location.reload(true)">Stop</button>
+        <p>Strict Mode<input class="strict" type="checkbox" data-toggle="toggle"></p>
+      </div>
+    </div>
+    <!-- Footer Region -->
+    <footer class="text-center">
+      <hr>
+      <p>Coded by <a href="https://www.freecodecamp.com/rapportbear" target="_blank">Preethi</a>.</p>
+    </footer>
+
+  </body>
+</html>

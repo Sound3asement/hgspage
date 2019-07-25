@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu&display=swap");
+h1 {
+  color: #90EE90;
+  border-color: #C0C0C0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #90EE90;
+  text-align: center;
+}
+
+.header-info {
+  display:block;
+
+  text-align: center;
+}
+.header h1{
+  text-align: center;
+}
+.headphoto{
+  margin-top: 20px;
+  margin-left: 45%;
+  margin-right: 20px;
+}
+.Ableton {
+  height: 20%;
+  display: inline-block;
+  margin-left: 35%;
+  margin-right: auto;
+  width: 20%;
+}
+
+.flstu {
+  height: 15%;
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: auto;
+  width: 20%;
+}
+
+.webdevphoto {
+  height: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: 2%;
+  width: 35%;
+  float: left;
+  text-align: center;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact_me {
+  text-align: center;
+}
+
+body {
+  background-color: #9370DB;
+}
+
+label {
+  color: #9370DB;
+}
+
+.header {
+  color: #90EE90;
+  text-align: center;
+}
+
+.index {
+  color: #C0C0C0;
+}
+
+.AboutMe {
+  color: #C0C0C0;
+}
+
+.about_me {
+  text-align: center;
+}
+
+.SKillP {
+  text-align:
+    left;
+  margin-left: 10%
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  color: silver;
+}
+.foot-link{
+  color: silver;
+}
+.contactme {
+  color: #9370DB
+}
+
+h3 {
+  color: #C0C0C0;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto 0;
+  width: 100%;
+}
+
+th {
+  color: #C0C0C0
+}
+
+p {
+  color: #90EE90;
+  text-align: center;
+}
+
+ul {
+  color: #C0C0C0;
+  text-align: center;
+}
+
+td {
+  color: #C0C0C0;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+h4 {
+  color: #C0C0C0
+}
+
+hr {
+  background-color: #C0C0C0;
+  border-style: none;
+  width: 40%;
+  height: 2px;
+}
+.govRoles{
+  color: #C0C0C0
+}
+.diceImg {
+  height: 150px;
+  width: 300px;
+}
+.amButton{
+
+  background-color: silver;
+    border: none;
+    color: #9370DB;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+    float: left;
+}
+.messageBox{
+  align-items: center;
+  text-align: center;
+}
+.amButton2{
+  background-color: silver;
+    border: none;
+    color: #9370DB;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+    
+}
+.amButton2:hover{
+  background-color: #90EE90
+}
+.amButton:hover{
+   background-color: #90EE90;
+}
+.amDiv{
+  text-align: center;
+
+}
+.bButton{
+  background-color: #9370DB;
+    border: none;
+    color: #90EE90;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+    float: right;
+}
+.bButton:hover{
+  background-color: silver;
+  color: #90EE90;
+}
+.bButton2{
+  background-color: #9370DB;
+    border: none;
+    color: #90EE90;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+
+}
+.bButton2:hover{
+  background-color: silver;
+  color: #9370DB;
+}
+.contactMe{
+
+  text-align: center;
+  background-color: #90EE90;
+
+
+}
+.About {
+  height: 200px;
+
+}
+.About h1 {
+  text-align: left;
+}
+.About p{
+  text-align: left
+}
+.resources{
+  align-items: center;
+  text-align: center;
+}
+.contactMe{
+  height: 150px;
+}
+.contactMe h2{
+  color: #9370DB;
+  text-align: right;
+}
+.contactMe p{
+  color: #9370DB;
+  text-align: right;
+}
+.gamesHome{
+  heght: 120px;
+  margin-bottom: 30px;
+}
+.gamesHome h2{
+  text-align: left;
+  margin-left: 20px;
+}
+.gamesHome p {
+  text-align: left;
+  margin-left: 20px
+}
+.flashImg{
+  height: 100px;
+  width: 100px;
+}
+.simon{
+  height: 100px;
+  width: 200px
+}

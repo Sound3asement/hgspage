@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu&display=swap");
+*{
+	font-family:'Indie Flower'
+}
+body{
+	background: #f7f7f7
+}
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+	margin: 30px;
+/* -webkit-box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75);
+box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75); */
+	background:   #f7f7f7;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+/* 		transform: rotateY(180deg); */
+	}
+
+.flip-container, .front, .back {
+	width: 300px;
+	height: 180px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.4s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:50px;
+
+}
+
+/* back, initially hidden pane */
+.back {
+
+	transform: rotateY(180deg);
+}
+
+
+.front, .back{
+	box-sizing: content-box !important;
+//	border-radius:10px;
+		background: white;
+		background:  #00979c;
+	color:white;
+}
+
+
+.defintion{
+	padding: 30px;
+	font-size: 20px;
+}
