@@ -54,6 +54,9 @@ h2 {
   float: left;
   text-align: center;
 }
+.AboutImg{
+  width: 250px;
+}
 
 .skill-row {
   width: 50%;
@@ -192,7 +195,7 @@ hr {
     cursor: pointer;
     border-radius: 16px;
     align-items: center;
-    
+
 }
 .amButton2:hover{
   background-color: #90EE90
@@ -273,7 +276,7 @@ hr {
   text-align: right;
 }
 .gamesHome{
-  heght: 120px;
+  height: 120px;
   margin-bottom: 30px;
 }
 .gamesHome h2{
@@ -291,4 +294,38 @@ hr {
 .simon{
   height: 100px;
   width: 200px
+}
+.reflect{
+  text-align: left;
+  margin-left: 50px;
+}
+.reflectImg{
+  float: left;
+}
+.reflectImg2{
+  float: left;
+  width: 250px
+}
+.divReflect{
+  height: 375px;
+  width: 575px;
+  margin-left: 400px
+}
+.gameButton{
+  background-color: #90EE90;
+    border: none;
+    color: #9370DB;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+    float: right;
+}
+.gameButton:hover{
+  background-color: silver;
+  color: #9370DB;
 }
