@@ -3,7 +3,7 @@
 	font-family:'Indie Flower'
 }
 body{
-	background: #f7f7f7
+	background: #C0C0C0
 }
 /* entire container, keeps perspective */
 .flip-container {
@@ -12,7 +12,7 @@ body{
 /* -webkit-box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75);
 box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75); */
-	background:   #f7f7f7;
+	background:   #9370DB;
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -62,10 +62,9 @@ box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75); */
 
 .front, .back{
 	box-sizing: content-box !important;
-//	border-radius:10px;
-		background: white;
-		background:  #00979c;
-	color:white;
+  	border-radius:10px;
+		background:  #90EE90;
+	color:#9370DB;
 }
 
 

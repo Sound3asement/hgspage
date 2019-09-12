@@ -8,6 +8,8 @@ h1 {
 
 p {
   font-family: 'Titillium Web', sans-serif;
+  color: #C0C0C0;
+  text-align: center;
 }
 
 h2 {
@@ -72,8 +74,9 @@ body {
   background-color: #9370DB;
 }
 
-label {
-  color: #9370DB;
+
+label{
+  color: #90EE90;
 }
 
 .header {
@@ -110,12 +113,10 @@ label {
 .foot-link{
   color: silver;
 }
-.contactme {
-  color: #9370DB
-}
+
 
 h3 {
-  color: #C0C0C0;
+  color: #90EE90;
   text-align: center;
 }
 
@@ -128,10 +129,7 @@ th {
   color: #C0C0C0
 }
 
-p {
-  color: #90EE90;
-  text-align: center;
-}
+
 
 ul {
   color: #C0C0C0;
