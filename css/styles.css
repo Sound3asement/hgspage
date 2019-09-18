@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu&display=swap");
 h1 {
-  color: #90EE90;
-  border-color: #C0C0C0;
+  color: #C0C0C0;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -14,7 +13,7 @@ p {
 
 h2 {
   font-family: 'Titillium Web', sans-serif;
-  color: #90EE90;
+  color: #C0C0C0;
   text-align: center;
 }
 
@@ -71,16 +70,16 @@ h2 {
 }
 
 body {
-  background-color: #9370DB;
+  background-color: #FFFDD0;
 }
 
 
 label{
-  color: #90EE90;
+  color: #9370DB;
 }
 
 .header {
-  color: #90EE90;
+  color: #FFFDD0;
   text-align: center;
 }
 
@@ -116,7 +115,7 @@ label{
 
 
 h3 {
-  color: #90EE90;
+  color: #C0C0C0;
   text-align: center;
 }
 
@@ -182,9 +181,9 @@ hr {
   text-align: center;
 }
 .amButton2{
-  background-color: silver;
+  background-color: #9370DB;
     border: none;
-    color: #9370DB;
+    color: #C0C0C0;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -196,10 +195,12 @@ hr {
 
 }
 .amButton2:hover{
-  background-color: #90EE90
+  background-color: #C0C0C0;
+  color: #9370DB;
 }
 .amButton:hover{
-   background-color: #90EE90;
+   background-color: #9370DB;
+   color: #C0C0C0
 }
 .amDiv{
   text-align: center;
@@ -208,7 +209,7 @@ hr {
 .bButton{
   background-color: #9370DB;
     border: none;
-    color: #90EE90;
+    color: #C0C0C0;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -221,12 +222,12 @@ hr {
 }
 .bButton:hover{
   background-color: silver;
-  color: #90EE90;
+  color: #9370DB;
 }
 .bButton2{
   background-color: #9370DB;
     border: none;
-    color: #90EE90;
+    color: #9370DB;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -244,7 +245,6 @@ hr {
 .contactMe{
 
   text-align: center;
-  background-color: #90EE90;
 
 
 }
@@ -310,7 +310,7 @@ hr {
   margin-left: 400px
 }
 .gameButton{
-  background-color: #90EE90;
+  background-color: #C0C0C0;
     border: none;
     color: #9370DB;
     padding: 10px 20px;

@@ -1,9 +1,6 @@
 head{
   background-color: #9370DB
 }
-body{
-  background-color: #9370DB
-}
 h1{
   color: #90EE90;
   text-align: center;
@@ -14,7 +11,7 @@ p{
   text-align: center;
 }
 .headerp{
-  color: #90EE90
+  color: #FFFDD0
 }
 .About{
   text-align: left;
@@ -26,7 +23,9 @@ p{
 
 
 .header-info{
-  background-image: url('https://images.squarespace-cdn.com/content/v1/5534e642e4b062ec5815efb3/1519496489281-XWCWVTBFWNF09ZMURBPT/ke17ZwdGBToddI8pDm48kGmWf7L3rc6W9tZVghoCwTwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc9NDx62PaqHHN-DiwuveZ57A6vSGV8IJiQXg8s8G3TUcV0aVsQcJ1bFzxrOXC7JHf/PM%2BWebsite%2BBanner.png?format=1500w');
+  background-image: url('https://live.staticflickr.com/3718/9034474932_90fa7458d6_z.jpg');
+  background-position: center;
+  background-size: 1424px 95px;
   width: 100%;
   height: 95px;
 }
